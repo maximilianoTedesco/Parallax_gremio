@@ -1,0 +1,80 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: Cambria, sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #666;
+}
+
+.titulo {
+    background-image: url(https://midia.gruposinos.com.br/_midias/jpg/2017/12/17/17_12_17gremio-3296972.jpg);
+    min-height: 100%;
+}
+
+.titulo, .segundoTitulo, .terceiroTitulo {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div {
+    display: block;
+}
+
+.bordas {
+    background-color: rgba(109, 87, 233, 0.3);
+    color: rgb(235, 250, 149);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.dentroTitulo {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+
+
+.dentroSection {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+section {
+    display: block;
+}
+
+.segundoTitulo {
+    background-image: url(https://media.istockphoto.com/photos/defocused-lights-background-picture-id1200350405?b=1&k=6&m=1200350405&s=170667a&w=0&h=uHo15RlMErj8RRcgwoZAcf0ua5b0wK6zLE0UxUpIy68=);
+    min-height: 400px;
+}
+
+.bordas.transition {
+    background-color: transparent;
+}
+
+.darkSection {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.terceiroTitulo {
+    background-image: url(https://portaldogremista.com.br/wp-content/uploads/2021/04/Gremio-Argentina.jpg);
+    min-height: 400px;
+}
